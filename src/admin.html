@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('path/to/your/background-image.jpg'); /* Ganti dengan path gambar Anda */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: rgba(41, 128, 185, 0.1);
+        }
+
+        .action-links a {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Admin Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard Admin</h1>
+        <a href="register.html" class="btn">Tambah Pengguna</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Muis Nuryana</td>
+                    <td>pccmuis77@gmail.com</td>
+                    <td class="action-links">
+                        <a href="#"><i class="fas fa-edit"></i> Edit</a>
+                        <a href="#"><i class="fas fa-trash"></i> Hapus</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Reza Gulaman Zakyya</td>
+                    <td>reza008@gmail.com</td>
+                    <td class="action-links">
+                        <a href="#"><i class="fas fa-edit"></i> Edit</a>
+                        <a href="#"><i class="fas fa-trash"></i> Hapus</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abdul Hadi Maulidi</td>
+                    <td>abdulhadimaulidi@gmail.com</td>
+                    <td class="action-links">
+                        <a href="#"><i class="fas fa-edit"></i> Edit</a>
+                        <a href="#"><i class="fas fa-trash"></i> Hapus</a>
+                    </td>
+                </tr>
+                <!-- Tambahkan lebih banyak baris sesuai kebutuhan -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
